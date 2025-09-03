@@ -28,10 +28,10 @@ body:
   - type: textarea
     attributes:
       label: 添付ファイル
-      description: 不具合発生時のスクリーンショットや動画ファイルなどがあれば添付してください。
+      description: 不具合に関するスクリーンショットや動画ファイルなどがあれば添付してください。
     validations:
       required: true
   - type: textarea
     attributes:
       label: その他情報
-      description: 不具合に関するその他の情報を記載してください。スクリーンショットなどもあれば添付してください。
+      description: 不具合に関するその他の情報を記載してください。
