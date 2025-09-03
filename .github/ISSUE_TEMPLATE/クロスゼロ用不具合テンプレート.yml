@@ -30,12 +30,13 @@ body:
         3. ××という動作が発生する
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        ### 添付資料 
-        不具合に関するスクリーンショットや動画ファイルなどがあれば添付してください。
   - type: textarea
     attributes:
       label: その他情報
       description: 不具合に関するその他の情報を記載してください。
+  - type: textarea
+    attributes:
+      label: 添付ファイル
+      description: 不具合に関するスクリーンショットや動画ファイルなどを添付してください。
+    validations:
+      required: true
