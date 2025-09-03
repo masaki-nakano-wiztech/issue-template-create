@@ -33,10 +33,8 @@ body:
   - type: markdown
     attributes:
       value: |
-      ### 添付資料 
-      description: 不具合に関するスクリーンショットや動画ファイルなどがあれば添付してください。
-    validations:
-      required: true
+        ### 添付資料 
+        不具合に関するスクリーンショットや動画ファイルなどがあれば添付してください。
   - type: textarea
     attributes:
       label: その他情報
