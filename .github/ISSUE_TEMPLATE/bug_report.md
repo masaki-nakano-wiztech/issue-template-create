@@ -1,38 +1,36 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: バグ報告
+about: クロスゼロのバグを報告してください
 title: ''
-labels: ''
+labels: 不具合
 assignees: ''
 
 ---
 
-**Describe the bug**
+**不具合内容**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+**再現手順**
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+**期待されるべき動作**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**スクリーンショット**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
+**WEB動作環境情報（ブラウザ・バージョン）**
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
+**スマートフォン動作環境情報**
  - Device: [e.g. iPhone6]
  - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
+**その他**
 Add any other context about the problem here.
