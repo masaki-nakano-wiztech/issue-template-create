@@ -1,7 +1,7 @@
 name: 🐞 クロスゼロ不具合報告
 description: 不具合内容の詳細を記載してください。
 title: "bug: "
-labels: ["🐞❔ unconfirmed bug"]
+labels: ["発生不具合"]
 body:
   - type: textarea
     attributes:
