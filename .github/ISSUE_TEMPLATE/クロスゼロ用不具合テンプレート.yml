@@ -22,12 +22,18 @@ body:
   - type: textarea
     attributes:
       label: 再現手順
-      description: 不具合内容の発生手順を具体的に記載してください。
+      description: |
+        不具合内容の発生手順を具体的に記載してください。
+        例:
+        1. 〇〇ページにアクセス
+        2. 〇〇ボタンをクリック
+        3. ××という動作が発生する
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     attributes:
-      label: 添付ファイル
+      value: |
+      ### 添付資料 
       description: 不具合に関するスクリーンショットや動画ファイルなどがあれば添付してください。
     validations:
       required: true
