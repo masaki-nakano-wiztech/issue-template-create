@@ -12,16 +12,17 @@ body:
         npx envinfo --system --binaries
         使用機材・動作環境・OS・ブラウザ・アプリのバージョンなど
         ```
-        value: |
-          - OS：
-          - 動作環境：
-          - バージョン：
-          - その他特記事項：
-          
-          - 使用機材：
-          - OS：
-          - アプリバージョン：
-          - その他特記事項
+      value: |
+        ## WEB動作環境
+        - OS：
+        - 動作環境：
+        - バージョン：
+        - その他特記事項：
+        ## アプリ動作環境
+        - 使用機材：
+        - OS：  
+        - アプリバージョン：
+        - その他特記事項
     validations:
       required: true
   - type: textarea
