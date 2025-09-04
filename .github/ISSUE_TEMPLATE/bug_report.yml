@@ -1,4 +1,4 @@
-name: 🐞 クロスゼロ不具合報告
+name: 🐞 不具合報告
 description: 不具合内容の詳細を記載してください。
 title: "bug: "
 labels: ["発生不具合"]
@@ -9,8 +9,20 @@ body:
       description: |
         不具合発生時の環境情報を記入してください
         ```bash
+        npx envinfo --system --binaries
         使用機材・動作環境・OS・ブラウザ・アプリのバージョンなど
         ```
+        value: |
+          ## WEB環境情報
+          - OS：
+          - 動作環境：
+          - バージョン：
+          - その他特記事項：
+          ## スマートフォン環境情報
+          - 使用機材：
+          - OS：
+          - アプリバージョン：
+          - その他特記事項
     validations:
       required: true
   - type: textarea
