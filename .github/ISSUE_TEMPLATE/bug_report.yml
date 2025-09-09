@@ -15,27 +15,19 @@ body:
         例 → 再現性：100%（5回/5回）
         ```
       value: |
-        WEB動作環境
+        動作環境
         ・内容記載日：
         ・動作環境：
         ・OS：
         ・バージョン：
         ・再現性：
         ・その他特記事項：
-        
-        アプリ動作環境
-        ・内容記載日：
-        ・使用機材：
-        ・OS：  
-        ・アプリバージョン：
-        ・再現性：
-        ・その他特記事項
     validations:
       required: true
   - type: textarea
     attributes:
       label: 不具合内容の詳細
-      description: 不具合の内容を具体的に記載してください。
+      description: 不具合の内容を具体的に記載してください。スクリーンショットや動画などの添付ファイルもこちらにお願いします。
     validations:
       required: true
   - type: textarea
@@ -52,9 +44,3 @@ body:
     attributes:
       label: その他情報
       description: 不具合に関するその他の情報を記載してください。
-  - type: textarea
-    attributes:
-      label: 添付ファイル
-      description: 不具合に関するスクリーンショットや動画ファイルなどを添付してください。
-    validations:
-      required: true
