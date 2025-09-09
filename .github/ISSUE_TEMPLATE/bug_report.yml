@@ -27,7 +27,7 @@ body:
   - type: textarea
     attributes:
       label: 不具合内容の詳細
-      message: |
+      description: |
         不具合の内容を具体的に記載してください。
         スクリーンショットや動画などの添付ファイルもこちらにお願いします。(動画ファイルは無料版は10MBまで)
     validations:
